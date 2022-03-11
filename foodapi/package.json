@@ -1,0 +1,20 @@
+{
+  "name": "foodapi",
+  "version": "1.0.0",
+  "description": "This is food application.",
+  "main": "food.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "food",
+    "water"
+  ],
+  "author": "Kaushik Chintam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.0"
+  }
+}
