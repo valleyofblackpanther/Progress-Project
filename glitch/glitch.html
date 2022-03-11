@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitch Club</title>
+    <style>
+      #de {
+          background-color: darkcyan;
+          margin-left: 87%;
+          margin-top: 25%;
+          background: linear-gradient(64deg, pink, black);
+      }
+
+      .hey {
+          background-color: blue;
+      }
+    </style>
+</head>
+<body>
+    <div class="hey" >
+        <div class="heyyy" style="background: linear-gradient(32deg, red, blue )">
+            <button id="de">Press</button>
+            <image src="glitch.png" alt="there should be a picture."></image>
+        </div>
+    </div> 
+    
+    <script>
+        let features = 'popup=yes,left=100,top=100,width=320,height=320';
+        document.getElementById('de').addEventListener('click', (ev) =>{
+            let other = window.open('http://127.0.0.1:5500/index.html', '_blank', features);
+        })
+    </script>
+
+</body>
+</html>
